@@ -1,0 +1,158 @@
+@import "css/reset.css";
+/*--global--*/
+a {
+    text-decoration: none;
+}
+/*----------header--------*/
+header {
+    overflow: hidden;
+    height: 45px;
+    padding: 10px 25px 10px 25px;
+}
+header .Main-Navagation {
+float: left;
+height: inherit;
+}
+header .Main-Navagation .logo {
+display: inline-block;
+}
+header .Main-Navagation .logo {
+color: #6C71F1;
+font-size: 50px;
+margin-right: 10px;
+}
+header .Main-Navagation .Pages {
+display: inline-block;
+position: relative;
+bottom: 35%;
+margin-left: 10px
+}
+header .Main-Navagation .Pages ul {
+    padding: 0;
+    margin: 0;
+}
+header .Main-Navagation .Pages ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+header .Main-Navagation .Pages ul li a{
+    text-decoration: none;
+    color: rgb(189, 193, 255);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+header .User-Data {
+    float: right;
+} 
+header .User-Data .User-Data-container{
+    position: relative;
+    bottom: -12px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+} 
+header .User-Data .show-bag{
+    background-color: #6C71F1;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    text-align: center;
+    color: lightBlue;
+    margin-right: 10px;
+}
+header .User-Data .show-bag .fas{
+    margin-left: 15px;
+}
+header .User-Data .sign-up{
+    background-color: #FCB866;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+#container {
+    clear: both;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main {
+    margin-top: 20px;
+}
+main #container .join-us{
+    overflow: hidden;
+}
+main #container .join-us .emailAndIntro{
+    width: 50%;
+    float: left;
+}
+main #container .join-us .emailAndIntro{
+    width: 50%;
+    float: left;
+}
+main #container .join-us .emailAndIntro .intro{
+width: 100%;
+}
+main #container .join-us .emailAndIntro .intro h2{
+    color: #6C71F1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+}
+main #container .join-us .emailAndIntro .intro p{
+    color: rgb(101, 101, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+main #container .join-us .emailAndIntro .email{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 5px 7px;
+    width: 260px;
+    margin-top: 20px;
+}
+main #container .join-us .emailAndIntro .email .fas{
+    display: inline-block;
+    color: gray;
+    margin-left: 5px;
+}
+main #container .join-us .emailAndIntro form{
+    display: inline-block;
+}
+main #container .join-us .emailAndIntro form .email-box{
+    border: none;
+    background: none;
+}
+main #container .join-us .emailAndIntro form button{
+    border: none;
+    background-color: #6C71F1;
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+main #container .join-us .image-1{
+    width: 45%;
+    float: right;
+}
+main #container .join-us .image-1 img{
+    width: 100%;
+}
+/* #6C71F1 blue 
+  #D8DAF9 lightBlue
+  #FCB866 orange
+*/
